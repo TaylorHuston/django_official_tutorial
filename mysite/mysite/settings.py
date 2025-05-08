@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'polls.apps.PollsConfig',  # Add your app here
     'debug_toolbar',  # Add the debug toolbar app
+    "django_polls.apps.PollsConfig",
 ]
 
 MIDDLEWARE = [
